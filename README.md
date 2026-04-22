@@ -1,5 +1,7 @@
 # Team Drawer
 
+[![Unit Tests](https://github.com/LucasBremm/team-drawer/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/LucasBremm/team-drawer/actions/workflows/unit-tests.yml)
+
 Aplicacao web frontend para organizar partidas casuais de futebol com sorteio equilibrado de dois times.
 
 ## Resumo
