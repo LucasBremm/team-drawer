@@ -1,0 +1,59 @@
+:root {
+  --td-bg: #f5f7f2;
+  --td-surface: #ffffff;
+  --td-border: #d6dccf;
+  --td-text: #1b2a1a;
+  --td-muted: #4f604e;
+  --td-primary: #2f6f3e;
+  --td-primary-soft: #e2f0de;
+  --td-danger: #a61d24;
+  --td-warning: #996400;
+
+  font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  color: var(--td-text);
+  background: var(--td-bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #eef3e8 0%, var(--td-bg) 40%);
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.card {
+  border-color: var(--td-border);
+}
+
+.small-muted {
+  color: var(--td-muted);
+  font-size: 0.875rem;
+}
+
+.status-error {
+  color: var(--td-danger);
+}
+
+.status-warning {
+  color: var(--td-warning);
+}
+
+.status-success {
+  color: var(--td-primary);
+}
+
+pre.copy-fallback {
+  background: #f9faf7;
+  border: 1px dashed var(--td-border);
+  border-radius: 8px;
+  padding: 0.75rem;
+  white-space: pre-wrap;
+}
